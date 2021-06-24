@@ -1,0 +1,21 @@
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  #header{
+      background-color: #67caeb;
+  }
+  .carousel-inner> .carousel-item{
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
+}
+/* .imgsetting{
+    padding: 100px !important;
+    
+  } */
